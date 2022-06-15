@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000066;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.warning {background-color: #ff9800;} 
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+}
+</style>
+<body>
+  <img src="5.png">
+<div>
+  <form action="ajout.php" method="POST">
+    <label for="fname" class="label warning">REF</label>
+    <input type="text" id="fname" name="p1" placeholder="refirentielle">
+
+    <label for="lname" class="label warning">DESIGNATION</label>
+    <input type="text" id="lname" name="p2" placeholder="DESIGNATION">
+    <label for="fname" class="label warning">QTE</label>
+    <input type="text" id="fname" name="p3" placeholder="Qunt">
+    <label for="fname" class="label warning">UN</label>
+    <input type="text" id="fname" name="p4" placeholder="UN">
+    <label for="fname" class="label warning">P.U client</label>
+    <input type="text" id="fname" name="p5" placeholder="P.U">
+    <label for="fname" class="label warning">REM</label>
+    <input type="text" id="fname" name="p6" placeholder="remise">
+    <label for="fname" class="label warning">MONTANT</label>
+    <input type="text" id="fname" name="p7" placeholder="MONTANT">
+    <label for="fname" class="label warning">TVA</label>
+    <input type="text" id="fname" name="p8" placeholder="TVA">
+    <label for="fname" class="label warning">P.U fournisseur</label>
+    <input type="text" id="fname" name="p9" placeholder="P.U">
+    
+    <input type="submit" value="Submit">
+    <br /><a href='home.html'>return</a>
+  </form>
+</div>
+
+</body>
+</html>

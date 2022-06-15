@@ -1,0 +1,39 @@
+$rebah1=($prix1-(($res1['puf'])*$m1));
+$reb1=mysql_query("UPDATE mat set BICE=BICE+$rebah1 where REF='$a1'");
+ 
+$rebah2=($prix2-(($res2['puf'])*$m2));
+$reb2=mysql_query("UPDATE mat set BICE=BICE+$rebah2 where REF='$a2'");
+ 
+$rebah3=($prix3-(($res3['puf'])*$m3));
+$reb3=mysql_query("UPDATE mat set BICE=BICE+$rebah3 where REF='$a3'");
+ 
+$rebah4=($prix4-(($res4['puf'])*$m4));
+$reb4=mysql_query("UPDATE mat set BICE=BICE+$rebah4 where REF='$a4'");
+ 
+$rebah5=($prix5-(($res5['puf'])*$m5));
+$reb5=mysql_query("UPDATE mat set BICE=BICE+$rebah5 where REF='$a5'");
+ 
+$rebah6=($prix6-(($res6['puf'])*$m6));
+$reb6=mysql_query("UPDATE mat set BICE=BICE+$rebah6 where REF='$a6'");
+ 
+$rebah7=($prix7-(($res7['puf'])*$m7));
+$reb7=mysql_query("UPDATE mat set BICE=BICE+$rebah7 where REF='$a7'");
+ 
+$rebah8=($prix8-(($res8['puf'])*$m8));
+$reb8=mysql_query("UPDATE mat set BICE=BICE+$rebah8 where REF='$a8'");
+ 
+$rebah9=($prix9-(($res9['puf'])*$m9));
+$reb9=mysql_query("UPDATE mat set BICE=BICE+$rebah9 where REF='$a9'");
+ 
+$rebah10=($prix10-(($res10['puf'])*$m10));
+$reb10=mysql_query("UPDATE mat set BICE=BICE+$rebah10 where REF='$a10'");
+ 
+$rebah11=($prix11-(($res11['puf'])*$m11));
+$reb11=mysql_query("UPDATE mat set BICE=BICE+$rebah11 where REF='$a11'");
+ 
+$rebah12=($prix12-(($res12['puf'])*$m12));
+$reb12=mysql_query("UPDATE mat set BICE=BICE+$rebah12 where REF='$a12'");
+ 
+$rebah13=($prix13-(($res13['puf'])*$m13));
+$reb13=mysql_query("UPDATE mat set BICE=BICE+$rebah13 where REF='$a13'");
+ 
